@@ -1,0 +1,27 @@
+.main-contacts-btn {
+    background-color: white;
+    width: 155px;
+    height: 52px;
+    align-items: center;
+    gap: 10px;
+    color: #FF685B;
+    font-style: 'Montserrat';
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 22px;
+    letter-spacing: 0.2px;
+    opacity: 1;
+    transition: .3s opacity;
+    border-radius: 5px;
+    border: 2px solid #FF685B;
+}
+.main-contacts-btn:hover {
+    opacity: 0.8;
+}
+
+@media screen and (max-width: 200px) {
+    .main-contacts-btn {
+        font-size: 14px;
+        line-height: 17px;
+    }
+}

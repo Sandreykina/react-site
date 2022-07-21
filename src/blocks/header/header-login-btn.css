@@ -1,0 +1,29 @@
+.header-login-btn {
+    width: 186px;
+    height: 40px;
+    background: #FFFFFF;
+    border: 2px solid #FF685B;
+    border-radius: 7px;
+    cursor: pointer;
+    color: #FF685B;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 24px;
+    align-items: center;
+    text-align: center;
+    opacity: 1;
+    transition: .3s opacity;
+    border-radius: 7px;
+}
+.header-login-btn:hover {
+    opacity: 0.8;
+}
+
+@media screen and (max-width: 200px) {
+    .header-login-btn {
+        font-size: 14px;
+        line-height: 17px;
+    }
+}

@@ -1,0 +1,12 @@
+.element__info {
+    display: flex;
+    flex-flow: column nowrap;
+    margin: 0;
+    height: fit-content;
+    background-color: white;
+    color: #E64040;
+    justify-content: space-between;
+    align-items: flex-start;
+    padding: 20px 20px 26px 40px;
+    z-index: 1;
+}

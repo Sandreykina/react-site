@@ -1,0 +1,9 @@
+.main {
+    display: flex;
+    flex-flow: column nowrap;
+}
+.main-btns {
+    display: grid; 
+    grid-template-columns: 138px auto;
+    gap: 10px ; 
+}

@@ -1,0 +1,27 @@
+.header-contacts-btn {
+    background-color: white;
+    width: 134px;
+    height: 24px;
+    border: none;
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 15px;
+    margin-right: 59px;
+    text-align: center;
+    letter-spacing: 0.2px;
+    color: #737373;
+    opacity: 1;
+    transition: .3s opacity;
+}
+
+.header-contacts-btn:hover {
+    opacity: 0.8;
+}
+
+@media screen and (max-width: 200px) {
+    .header-contacts-btn {
+        font-size: 14px;
+        line-height: 17px;
+    }
+}

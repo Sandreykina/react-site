@@ -1,0 +1,24 @@
+.profile__exit-btn {
+    background-color: #FF685B;
+    width: 228px;
+    height: 52px;
+    align-items: center;
+    color: #FFFFFF;
+    font-style: 'Montserrat';
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 22px;
+    letter-spacing: 0.2px;
+    transition: .3s opacity;
+    border-radius: 5px;
+    border: 2px;
+}
+
+.profile__exit-btn:hover {
+    opacity: 0.8;
+}
+@media screen and (max-width: 885px) {
+    .profile__exit-btn {
+        width: 228px;
+    }
+}

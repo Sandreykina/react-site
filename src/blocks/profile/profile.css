@@ -1,0 +1,21 @@
+.profile {
+    display: flex;
+    flex-flow: column wrap;
+    align-items: flex-start;
+    max-width: 1046px;
+    margin: 7.815vh 13.68vw auto;
+}
+.profile-btns {
+    display: grid;
+    grid-template-columns: 228px auto;
+    gap: 10px;
+}
+@media screen and (max-width: 902px) {
+    .profile {
+        max-width: 600px;
+        flex-direction: column;
+    }
+    .profile-btns {
+        grid-template-columns: 228px;
+    }
+}

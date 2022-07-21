@@ -1,0 +1,12 @@
+.element__image {
+    width: 72px;
+    height: 72px;
+    display: block;
+    background: #E74040;
+    border-radius: 200px;
+    margin-left: 40px;
+    margin-right: auto;
+    margin-top: 30px;
+
+    
+}

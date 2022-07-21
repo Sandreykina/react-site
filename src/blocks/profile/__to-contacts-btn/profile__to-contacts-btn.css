@@ -1,0 +1,26 @@
+.profile__to-contacts-btn {
+    background-color: white;
+    width: 228px;
+    height: 52px;
+    align-items: center;
+    gap: 10px;
+    color: #FF685B;
+    font-style: 'Montserrat';
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 22px;
+    letter-spacing: 0.2px;
+    opacity: 1;
+    transition: .3s opacity;
+    border-radius: 5px;
+    border: 2px solid #FF685B;
+}
+
+.profile__to-contacts-btn:hover {
+    opacity: 0.8;
+}
+@media screen and (max-width: 885px) {
+    .profile__to-contacts-btn {
+        width: 228px;
+    }
+}

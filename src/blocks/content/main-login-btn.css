@@ -1,0 +1,25 @@
+.main-login-btn {
+    background-color: #FF685B;
+    width: 138px;
+    height: 52px;
+    align-items: center;
+    color: #FFFFFF;
+    font-style: 'Montserrat';
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 22px;
+    letter-spacing: 0.2px;
+    transition: .3s opacity;
+    border-radius: 5px;
+    border: 2px;
+}
+.main-login-btn:hover {
+    opacity: 0.8;
+}
+
+@media screen and (max-width: 200px) {
+    .lmain-login-btn {
+        font-size: 14px;
+        line-height: 17px;
+    }
+}
