@@ -1,6 +1,8 @@
 .main-title {
     min-height: 89px;
-    min-width: 355px;
+    min-width: 328px;
+    max-width: 727px;
+    max-height: 160px;
     font-family: 'Montserrat';
     font-style: normal;
     font-weight: 700;
@@ -11,9 +13,22 @@
      /* width: 50.486vw;
     height: 15.625vh;  */
 }
-@media screen and (max-width: 655px) {
+
+@media screen and (max-width: 738px) {
+    .main-title {
+        font-size: 48px;
+        line-height: 60px;
+    }
+}
+@media screen and (max-width: 615px) {
+    .main-title {
+        font-size: 38px;
+        line-height: 50px;
+    }
+}
+@media screen and (max-width: 491px) {
     .main-title {
         font-size: 28px;
-        line-height: 50px;
+        line-height: 39px;
     }
 }

@@ -17,7 +17,8 @@ const Header = ({ onLogin }) => {
     <div>
       <header className="header">
         <img onClick={handleLogoClick} src={headerLogo} alt="Логотип" className="header__logo" />
-          <button
+        <div className="header-btns">
+        <button
             onClick={handleContactsClick}
             type="button"
             className="header-contacts-btn"
@@ -28,6 +29,8 @@ const Header = ({ onLogin }) => {
             type="button"
             className="header-login-btn"
           >Войти</button>
+        </div>
+          
         <LoginPopup />
       </header>
     </div>
