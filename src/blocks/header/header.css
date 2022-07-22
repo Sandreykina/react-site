@@ -5,11 +5,11 @@
   height: 7.741vh;
   border-bottom: 1px solid black;
   justify-content: space-between;
-  margin: 1.953vh 4.861vw 0
+  padding: 1.953vh 4.861vw 0
 }
 .header-btns {
   display: flex;
-  width: 100%;
+  max-width: 100%;
   align-items: center;
   justify-content: flex-end;
 }

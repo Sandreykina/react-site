@@ -4,7 +4,7 @@
   background-size: cover;
   color: #252B42;
   box-sizing: border-box;
-  font-family: 'Inter', Arial, sans-serif;
+  font-family: 'Montserrat', Arial, sans-serif;
 }
 @media screen and (max-width: 767px) {
     .page {

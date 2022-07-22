@@ -18,19 +18,19 @@ const Header = ({ onLogin }) => {
       <header className="header">
         <img onClick={handleLogoClick} src={headerLogo} alt="Логотип" className="header__logo" />
         <div className="header-btns">
-        <button
+          <button
             onClick={handleContactsClick}
             type="button"
             className="header-contacts-btn"
           >Контакты</button>
-        
+
           <button
             onClick={onLogin}
             type="button"
             className="header-login-btn"
           >Войти</button>
         </div>
-          
+
         <LoginPopup />
       </header>
     </div>

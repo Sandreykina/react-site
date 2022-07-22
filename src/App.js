@@ -31,9 +31,8 @@ const App = () => {
     setisLoginPopupOpen(false);
   };
   return (
-    <div>
-      <Header onLogin={handleLoginClick}/>
       <div className="page">
+      <Header onLogin={handleLoginClick}/>
       <Routes>
         <Route exact path="/profile" element={<Profile 
           currentUser={currentUser}
@@ -52,7 +51,6 @@ const App = () => {
         setCurrentUser={setCurrentUser}
         setisLoggedIn={setisLoggedIn}
       />
-    </div>
     </div>
   );
 }
