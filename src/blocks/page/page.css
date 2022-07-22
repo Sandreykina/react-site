@@ -1,6 +1,7 @@
 .page {
   background-color: #fff;
   min-height: 100vh;
+  min-width: 375px;
   background-size: cover;
   color: #252B42;
   box-sizing: border-box;

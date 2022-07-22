@@ -8,6 +8,7 @@ import Service from './components/Service';
 import LoginPopup from './components/LoginPopup';
 import { initialUsersData } from "./usersData";
 import { initialServicesData } from './servicesData';
+import { STORAGE_TOKEN } from './constants';
 
 const App = () => {
   let [isLoginPopupOpen, setisLoginPopupOpen] = useState(false);
@@ -15,6 +16,16 @@ const App = () => {
   const [services, setServices] = useState([]);
   const [currentUser, setCurrentUser] = useState();
   const [isLoggedIn, setisLoggedIn] = useState(false);
+  const token = window.localStorage.getItem(STORAGE_TOKEN);
+
+  useEffect(() => {
+    if (token) {
+      setisLoggedIn(true)
+    } else {
+      setisLoggedIn(false)
+    }
+  }, [token]); 
+
   useEffect(() => {
     setUsers(initialUsersData);
   }, [initialUsersData])
