@@ -1,7 +1,8 @@
 import React, { useState } from "react";
 import Popup from "./Popup";
 import { useNavigate } from 'react-router-dom';
-
+import { STORAGE_TOKEN } from './../constants';
+//todo: сделать jwt-токен и закодировать имя, id
 const LoginPopup = ({ isOpen, onClose, users, setCurrentUser, setisLoggedIn }) => {
   const [login, setLogin] = useState("");
   const [password, setPassword] = useState("");
@@ -21,6 +22,7 @@ const LoginPopup = ({ isOpen, onClose, users, setCurrentUser, setisLoggedIn }) =
     if(user[0]) {
       setCurrentUser(user[0]);
       setisLoggedIn(true);
+      window.localStorage.setItem(STORAGE_TOKEN, '1234')
       navigate("./profile", { replace: true });
     }
     else {

@@ -17,5 +17,4 @@ export let initialUsersData = [
         login: 'Victor',
         password: '11111111'
     },
-    
 ]
