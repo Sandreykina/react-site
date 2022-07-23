@@ -33,3 +33,11 @@
 @import url(./blocks/profile/__to-contacts-btn/profile__to-contacts-btn.css);
 @import url(./blocks/profile/__title/profile__title.css);
 
+html {
+    line-height: 1.15;
+    -webkit-text-size-adjust: 100%;
+}
+
+body {
+    margin: 0;
+}
