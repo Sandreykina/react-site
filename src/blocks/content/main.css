@@ -4,6 +4,6 @@
 }
 .main-btns {
     display: grid; 
-    grid-template-columns: 138px auto;
+    grid-template-columns: 130px auto;
     gap: 10px ; 
 }

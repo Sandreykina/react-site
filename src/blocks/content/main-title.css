@@ -3,16 +3,14 @@
     min-width: 328px;
     max-width: 727px;
     max-height: 160px;
-    font-family: 'Montserrat';
+    font-family: 'Inter';
     font-style: normal;
-    font-weight: 700;
-    font-size: 58px;
+    font-weight: 900;
+    font-size: 65px;
     line-height: 80px;
-    letter-spacing: 0.2px;
+    letter-spacing: 4px;
     color: #252B42;
     margin-bottom: 3.418vh;
-     /* width: 50.486vw;
-    height: 15.625vh;  */
 }
 
 @media screen and (max-width: 738px) {

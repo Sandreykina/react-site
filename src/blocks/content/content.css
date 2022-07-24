@@ -3,3 +3,8 @@
     min-width: 375px;
     padding: 9.5214vh 4.861vw 0;
 }
+@media screen and (max-width: 500px) {
+    .content {
+        padding: 9.5214vh 2.66vw 0;
+    }
+}

@@ -13,10 +13,10 @@ const Service = ({ service, onServiceClick }) => {
         /></a>
         <div className="element__info">
           <h2 className="element__title">{service.title}</h2>
+          <div className="element__stripe"></div>
           <div className="element__text">{service.description}</div>
-          <div className="element__container">
-          </div>
         </div>
+        
       </article>
   );
 }
