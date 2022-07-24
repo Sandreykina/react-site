@@ -1,14 +1,14 @@
 .main-login-btn {
     background-color: #FF685B;
-    width: 138px;
+    width: 130px;
     height: 52px;
     align-items: center;
     color: #FFFFFF;
-    font-style: 'Montserrat';
+    font-family: 'Montserrat';
     font-weight: normal;
     font-size: 14px;
     line-height: 22px;
-    letter-spacing: 0.2px;
+    letter-spacing: 1.4px;
     transition: .3s opacity;
     border-radius: 5px;
     border: 2px;

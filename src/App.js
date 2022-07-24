@@ -19,11 +19,7 @@ const App = () => {
   const token = window.localStorage.getItem(STORAGE_TOKEN);
 
   useEffect(() => {
-    if (token) {
-      setisLoggedIn(true)
-    } else {
-      setisLoggedIn(false)
-    }
+    setisLoggedIn(!!token);
   }, [token]); 
 
   useEffect(() => {

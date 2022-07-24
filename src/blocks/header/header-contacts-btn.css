@@ -3,12 +3,11 @@
     width: 186px;
     height: 40px;
     border: none;
-    font-family: 'Open Sans';
     font-style: normal;
     font-weight: 600;
     font-size: 15px;
     text-align: center;
-    letter-spacing: 0.2px;
+    letter-spacing: 1.3px;
     color: #737373;
     opacity: 1;
     transition: .3s opacity;

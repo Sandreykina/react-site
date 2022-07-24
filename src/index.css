@@ -15,11 +15,11 @@
 
 @import url(./blocks/elements/elements.css);
 @import url(./blocks/element/element.css);
+@import url(./blocks//element/__stripe/element__stripe.css);
 @import url(./blocks/element/__info/element__info.css);
 @import url(./blocks/element/__image/element__image.css);
 @import url(./blocks/element/__title/element__title.css);
 @import url(./blocks/element/__text/element__text.css);
-@import url(./blocks/element/__container/element__container.css);
 
 @import url(./blocks/popup/popup.css);
 @import url(./blocks/popup/_opened/popup_opened.css);
@@ -33,3 +33,15 @@
 @import url(./blocks/profile/__to-contacts-btn/profile__to-contacts-btn.css);
 @import url(./blocks/profile/__title/profile__title.css);
 
+html {
+    line-height: 1.15;
+    -webkit-text-size-adjust: 100%;
+}
+
+body {
+    margin: 0;
+}
+h1 {
+    font-size: 2em;
+    margin: 0;
+  }

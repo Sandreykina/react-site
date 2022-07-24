@@ -1,15 +1,14 @@
 .profile__to-contacts-btn {
     background-color: white;
-    width: 228px;
+    width: 239px;
     height: 52px;
     align-items: center;
     gap: 10px;
     color: #FF685B;
-    font-style: 'Montserrat';
-    font-weight: normal;
-    font-size: 14px;
+    font-weight: 700;
+    font-size: 15px;
     line-height: 22px;
-    letter-spacing: 0.2px;
+    letter-spacing: 0.4px;
     opacity: 1;
     transition: .3s opacity;
     border-radius: 5px;
