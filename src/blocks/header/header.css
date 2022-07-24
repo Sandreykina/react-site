@@ -2,11 +2,10 @@
   display: flex;
   align-items: center;
   min-width: 375px;
-  height: 7.741vh;
+  height: 13.015vh;
   border-bottom: 1px solid black;
   justify-content: space-between;
   padding: 0 4.861vw 0;
-  
 }
 .header-btns {
   display: flex;
