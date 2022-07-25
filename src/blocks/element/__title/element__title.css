@@ -10,3 +10,9 @@
     white-space: nowrap;
     letter-spacing: 1.33px;
 }
+@media screen and (max-width: 500px) {
+    .element__title {
+      letter-spacing: 0.5; 
+      font-weight: 900;
+    }
+}

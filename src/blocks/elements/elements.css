@@ -17,8 +17,14 @@
       grid-template-columns: 328px;
     }
 }
-@media screen and (max-width: 375px) {
+@media screen and (max-width: 500px) {
     .elements {
-      max-width: 328px;
+      padding-top: 2.3vh;
+    }
+}
+@media screen and (max-width: 376px) {
+    .elements {
+        max-width: 328px;
+        padding-top: 2.7vh;
     }
 }
