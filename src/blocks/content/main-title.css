@@ -12,16 +12,27 @@
     color: #252B42;
     margin-bottom: 3.418vh;
 }
-
-@media screen and (max-width: 738px) {
+@media screen and (min-width: 738px) {
     .main-title {
         font-size: 48px;
         line-height: 60px;
     }
 }
+@media screen and (max-width: 738px) {
+    .main-title {
+        font-size: 43px;
+        line-height: 60px;
+    }
+}
+@media screen and (max-width: 678px) {
+    .main-title {
+        font-size: 40px;
+        line-height: 60px;
+    }
+}
 @media screen and (max-width: 615px) {
     .main-title {
-        font-size: 38px;
+        font-size: 34px;
         line-height: 50px;
     }
 }
