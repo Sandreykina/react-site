@@ -3,6 +3,13 @@
     min-width: 375px;
     padding: 9.5214vh 4.861vw 0;
 }
+@media screen and (max-width: 700px) {
+    .content {
+        padding: 7vh 2.7vw 0;
+        margin: 0;
+    }
+}
+
 @media screen and (max-width: 500px) {
     .content {
         padding: 4.6vh 2.7vw 0;
