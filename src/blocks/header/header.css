@@ -2,11 +2,10 @@
   display: flex;
   align-items: center;
   min-width: 375px;
-  height: 7.741vh;
+  height: 79px;
   border-bottom: 1px solid black;
   justify-content: space-between;
   padding: 0 4.861vw 0;
-  
 }
 .header-btns {
   display: flex;
@@ -16,8 +15,8 @@
   flex-grow: 1;
 }
 
-@media screen and (max-width: 493px) {
-  .header {
-    max-width: 100%;
+/* @media screen and (max-width: 493px) {
+  .header-btns {
+    min-width: 106px;
   }
-}
+} */
