@@ -12,6 +12,7 @@
     transition: .3s opacity;
     border-radius: 5px;
     border: 2px;
+    cursor: pointer;
 }
 .main-login-btn:hover {
     opacity: 0.8;

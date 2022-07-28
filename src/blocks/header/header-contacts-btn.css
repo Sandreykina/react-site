@@ -11,6 +11,7 @@
     color: #737373;
     opacity: 1;
     transition: .3s opacity;
+    cursor: pointer;
 }
 
 .header-contacts-btn:hover {

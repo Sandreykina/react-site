@@ -16,6 +16,7 @@
     opacity: 1;
     transition: .3s opacity;
     border-radius: 7px;
+    cursor: pointer;
 }
 .header-login-btn:hover {
     opacity: 0.8;
