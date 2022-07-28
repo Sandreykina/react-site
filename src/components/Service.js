@@ -1,9 +1,11 @@
 import React from "react";
 
 const Service = ({ service, onServiceClick }) => {
+
   const handleServiceClick = () => {
     onServiceClick(service);
   }
+  
 
   return (
       <article onClick={handleServiceClick} className="element">

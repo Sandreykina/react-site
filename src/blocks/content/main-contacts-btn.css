@@ -15,6 +15,7 @@
     transition: .3s opacity;
     border-radius: 5px;
     border: 2px solid #FF685B;
+    cursor: pointer;
 }
 .main-contacts-btn:hover {
     opacity: 0.8;

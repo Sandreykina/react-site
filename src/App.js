@@ -9,6 +9,7 @@ import LoginPopup from './components/LoginPopup';
 import { initialUsersData } from "./usersData";
 import { initialServicesData } from './servicesData';
 import { STORAGE_TOKEN } from './constants';
+import getPath from './utils/router';
 
 const App = () => {
   let [isLoginPopupOpen, setisLoginPopupOpen] = useState(false);
@@ -45,7 +46,7 @@ const App = () => {
           currentUser={currentUser}
           setisLoggedIn={setisLoggedIn} />} />
         <Route exact path="/contacts" element={<Contacts />} />
-        <Route exact path="/service/#" element={<Service/>} />
+        <Route exact path="/service/:id" element={<Service />} />
         <Route path="/" element={<Main 
           onLogin={handleLoginClick}
           services={services} />} />
