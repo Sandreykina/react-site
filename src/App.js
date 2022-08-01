@@ -4,12 +4,11 @@ import Profile from './components/Profile';
 import Header from './components/Header';
 import Main from './components/Main';
 import Contacts from './components/Contacts';
-import Service from './components/Service';
+import ServiceFull from './components/ServiceFull';
 import LoginPopup from './components/LoginPopup';
 import { initialUsersData } from "./usersData";
 import { initialServicesData } from './servicesData';
 import { STORAGE_TOKEN } from './constants';
-import getPath from './utils/router';
 
 const App = () => {
   let [isLoginPopupOpen, setisLoginPopupOpen] = useState(false);
@@ -46,7 +45,7 @@ const App = () => {
           currentUser={currentUser}
           setisLoggedIn={setisLoggedIn} />} />
         <Route exact path="/contacts" element={<Contacts />} />
-        <Route exact path="/service/:id" element={<Service />} />
+        <Route path="/service/:id" element={<ServiceFull />} />
         <Route path="/" element={<Main 
           onLogin={handleLoginClick}
           services={services} />} />

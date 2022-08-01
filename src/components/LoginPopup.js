@@ -23,7 +23,7 @@ const LoginPopup = ({ isOpen, onClose, users, setCurrentUser, setisLoggedIn }) =
       setCurrentUser(user[0]);
       setisLoggedIn(true);
       window.localStorage.setItem(STORAGE_TOKEN, '1234')
-      navigate("./profile", { replace: true });
+      navigate("./profile");
     }
     else {
       alert("нет такого пользователя");

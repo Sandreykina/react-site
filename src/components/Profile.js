@@ -6,10 +6,10 @@ const Profile = ({ currentUser, setisLoggedIn }) => {
 
     const handleLogoutClick = () => {
         setisLoggedIn(false);
-        navigate("/", { replace: true });
+        navigate("/");
     };
     const handleContactsClick = () => {
-        navigate("/contacts", { replace: true });
+        navigate("/contacts");
     };
 
     return (

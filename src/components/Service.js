@@ -5,7 +5,6 @@ const Service = ({ service, onServiceClick }) => {
   const handleServiceClick = () => {
     onServiceClick(service);
   }
-  
 
   return (
       <article onClick={handleServiceClick} className="element">
@@ -18,7 +17,6 @@ const Service = ({ service, onServiceClick }) => {
           <div className="element__stripe"></div>
           <div className="element__text">{service.description}</div>
         </div>
-        
       </article>
   );
 }
