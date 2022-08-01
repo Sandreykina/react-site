@@ -6,10 +6,7 @@ const Main = ({ onLogin, services }) => {
   const navigate = useNavigate();
 
   const handleContactsClick = () => {
-    navigate("./contacts", { replace: true })
-  };
-  const handleServiceClick = () => {
-    navigate("./service/#", { replace: true })
+    navigate("./contacts")
   };
 
   return (
@@ -35,7 +32,9 @@ const Main = ({ onLogin, services }) => {
         <section className="elements">
           {services.map((service, i) => {
             return (
-              <Service service={service} key={i} onServiceClick={handleServiceClick} />)
+              <Service key={i} 
+                service={service} 
+                onServiceClick={() => navigate(`./service/${i}`)} />)
           })}
         </section>
       </main>

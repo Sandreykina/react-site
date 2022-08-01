@@ -7,10 +7,10 @@ const Header = ({ onLogin }) => {
   const navigate = useNavigate();
 
   const handleContactsClick = () => {
-    navigate("./contacts", { replace: true })
+    navigate("./contacts")
   };
   const handleLogoClick = () => {
-    navigate("/", { replace: true })
+    navigate("/")
   };
 
   return (
